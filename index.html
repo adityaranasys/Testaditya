@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost & Found Platform | Lostify</title>
+    <meta name="description" content="Lostify: The central hub platform for lost and found items. Find your lost belongings or help others reunite with theirs.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lost & Found Platform | Lostify">
+    <meta property="og:description" content="Lostify: The central hub platform for lost and found items. Find your lost belongings or help others reunite with theirs.">
+    <meta property="og:image" content="/uploads/logo_1755717166.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lost & Found Platform | Lostify">
+    <meta property="twitter:description" content="Lostify: The central hub platform for lost and found items. Find your lost belongings or help others reunite with theirs.">
+    <meta property="twitter:image" content="/uploads/logo_1755717166.png">
+
+    <!-- Favicon Placeholder -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CSS Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1', // Indigo-500
+                        secondary: '#374151', // Gray-700
+                        accent: '#f472b6',    // Pink-400
+                    },
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+    <!-- JSON-LD Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Lostify",
+      "url": "https://www.example.com",
+      "logo": "https://www.example.com/uploads/logo_1755717166.png",
+      "description": "Lostify: The central hub platform for lost and found items.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-555-5555",
+        "contactType": "customer service"
+      }
+    }
+    </script>
+
+</head>
+
+<body class="bg-gray-50 font-sans antialiased">
+
+    <!-- Sticky Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md" role="banner">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between" aria-label="Global">
+            <a href="/" class="flex items-center" aria-label="Lostify Homepage">
+                <img src="/uploads/logo_1755717166.png" alt="Lostify Logo" class="h-10 w-auto" />
+                <span class="ml-2 text-xl font-bold text-gray-900">Lostify</span>
+            </a>
+            <div class="flex items-center space-x-4">
+                <a href="#features" class="text-gray-700 hover:text-primary transition-colors">Features</a>
+                <a href="#about" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                <a href="#" class="inline-block bg-primary hover:bg-indigo-600 text-white py-2 px-4 rounded-lg transition-colors">Post Item</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-100 to-indigo-50" role="region" aria-label="Hero Section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+                    Lost something? <br> We can help you find it.
+                </h1>
+                <p class="text-lg text-gray-700 mb-8">
+                    Lostify is the central platform for finding lost items. Join our community and increase your chances of finding what you've lost.
+                </p>
+                <div class="flex items-center justify-center md:justify-start space-x-4">
+                    <a href="#" class="inline-block bg-primary hover:bg-indigo-600 text-white py-3 px-6 rounded-lg font-semibold transition-colors">
+                        Report a Lost Item
+                    </a>
+                    <a href="#" class="inline-block bg-white hover:bg-gray-100 text-primary py-3 px-6 rounded-lg font-semibold transition-colors shadow-sm">
+                        Search for Found Items
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0">
+                <img src="https://images.unsplash.com/photo-1517331156700-3c241e3699a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Lost and Found Items" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Badges -->
+    <section class="py-8 bg-gray-50" role="region" aria-label="Social Proof">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-center justify-items-center">
+                <img src="https://via.placeholder.com/150x50.png?text=Brand+1" alt="Brand 1" class="h-8 grayscale opacity-75 hover:opacity-100 transition-opacity">
+                <img src="https://via.placeholder.com/150x50.png?text=Brand+2" alt="Brand 2" class="h-8 grayscale opacity-75 hover:opacity-100 transition-opacity">
+                <img src="https://via.placeholder.com/150x50.png?text=Brand+3" alt="Brand 3" class="h-8 grayscale opacity-75 hover:opacity-100 transition-opacity">
+                <img src="https://via.placeholder.com/150x50.png?text=Brand+4" alt="Brand 4" class="h-8 grayscale opacity-75 hover:opacity-100 transition-opacity">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="py-20 bg-white" role="region" aria-labelledby="features-heading" id="features">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 id="features-heading" class="text-3xl font-bold text-center mb-12">Key Features</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-search text-blue-600 text-2xl" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Advanced Search</h3>
+                    <p class="text-gray-600">Find lost items quickly and easily with our powerful search filters.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-map-marker-alt text-blue-600 text-2xl" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Location-Based Matching</h3>
+                    <p class="text-gray-600">Increase your chances of finding your item by searching within specific locations.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bell text-blue-600 text-2xl" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Real-Time Notifications</h3>
+                    <p class="text-gray-600">Get instant alerts when an item matching your description is found.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 bg-gray-100" role="region" aria-labelledby="benefits-heading">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 id="benefits-heading" class="text-3xl font-bold text-gray-900 mb-8">Why Choose Lostify?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Easy to Use</h3>
+                    <p class="text-gray-600">Our platform is designed for simplicity, making it easy for anyone to find or report lost items.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Secure & Private</h3>
+                    <p class="text-gray-600">We prioritize your privacy and security, ensuring your data is always protected.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Community-Driven</h3>
+                    <p class="text-gray-600">Join a supportive community dedicated to helping each other reunite with lost belongings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use-Case Cards -->
+    <section class="py-20 bg-white" role="region" aria-labelledby="use-cases-heading">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 id="use-cases-heading" class="text-3xl font-bold text-center mb-12">Who Can Use Lostify?</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-100 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-3">Students</h3>
+                    <p class="text-gray-600">Easily find lost textbooks, laptops, or personal items on campus.</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-3">Travelers</h3>
+                    <p class="text-gray-600">Recover lost luggage, passports, or other important documents while traveling.</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-3">Pet Owners</h3>
+                    <p class="text-gray-600">Quickly locate lost pets with location-based alerts and community support.</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-3">Event Attendees</h3>
+                    <p class="text-gray-600">Find lost wallets, phones, or other valuables after concerts or events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Slider (Static HTML) -->
+    <section class="py-16 bg-gray-50" role="region" aria-labelledby="testimonials-heading">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 id="testimonials-heading" class="text-3xl font-bold text-gray-900 mb-8">What Our Users Say</h2>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <p class="text-xl italic text-gray-700 mb-4">"Lostify helped me find my lost wallet within hours! I was so relieved."</p>
+                <p class="text-gray-800 font-semibold">- John Doe, Student</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="py-20 bg-white" role="region" aria-labelledby="faq-heading">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 id="faq-heading" class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="border border-gray-300 rounded-lg overflow-hidden">
+                    <button class="w-full text-left py-3 px-4 font-semibold text-gray-800 hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1" aria-expanded="false" aria-controls="faq1-content">
+                        What is Lostify?
+                    </button>
+                    <div id="faq1-content" class="p-4 hidden" role="region" aria-labelledby="faq1-heading">
+                        Lostify is a platform that connects people who have lost items with those who have found them. Our goal is to make it easier for people to reunite with their belongings.
+                    </div>
+                </div>
+                <div class="border border-gray-300 rounded-lg overflow-hidden">
+                    <button class="w-full text-left py-3 px-4 font-semibold text-gray-800 hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1" aria-expanded="false" aria-controls="faq2-content">
+                        How do I report a lost item?
+                    </button>
+                    <div id="faq2-content" class="p-4 hidden" role="region" aria-labelledby="faq2-heading">
+                        Simply create an account and fill out a detailed description of the item you lost, including its location and any distinguishing features.
+                    </div>
+                </div>
+                <div class="border border-gray-300 rounded-lg overflow-hidden">
+                    <button class="w-full text-left py-3 px-4 font-semibold text-gray-800 hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1" aria-expanded="false" aria-controls="faq3-content">
+                        Is Lostify free to use?
+                    </button>
+                    <div id="faq3-content" class="p-4 hidden" role="region" aria-labelledby="faq3-heading">
+                        Yes, Lostify is free to use for reporting and searching for lost items. We may offer premium features in the future.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 bg-primary">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to Find Your Lost Item?</h2>
+            <p class="text-xl text-blue-100 mb-8">Join Lostify today and start your search.</p>
+            <a href="#" class="bg-white hover:bg-gray-100 text-primary px-8 py-3 rounded-lg font-semibold transition-colors inline-block">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Footer with Links -->
+    <footer class="bg-gray-900 text-white py-12" role="contentinfo">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Lostify</h3>
+                    <p class="text-gray-400">Your central hub for lost and found items. Connecting people and their belongings.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Help Center</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Report a Problem</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Facebook</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Twitter</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Lostify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
